@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: ghcr.io/Sunny-1030/k8s-cicd-app:latest
         ports:
         - containerPort: 80
